@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Source\actclose.png" />
+    <None Remove="Source\actcopy.png" />
+    <None Remove="Source\actminus.png" />
+    <None Remove="Source\honey.png" />
+    <None Remove="Source\honey2.png" />
+    <None Remove="Source\unclose.png" />
+    <None Remove="Source\uncopy.png" />
+    <None Remove="Source\unminus.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Source\actclose.png" />
+    <Resource Include="Source\actcopy.png" />
+    <Resource Include="Source\actminus.png" />
+    <Resource Include="Source\honey.png" />
+    <Resource Include="Source\honey2.png" />
+    <Resource Include="Source\unclose.png" />
+    <Resource Include="Source\uncopy.png" />
+    <Resource Include="Source\unminus.png" />
+  </ItemGroup>
+
+</Project>
